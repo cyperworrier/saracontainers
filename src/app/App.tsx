@@ -32,7 +32,7 @@ const C = {
 function SaraLogo({ inverted = false }: { inverted?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2.5 no-underline">
-      <img src="./public/logo.png" alt="Sara Containers Logo" />
+      <img src="/logo.png" alt="Sara Containers Logo" />
       {/* <svg width="38" height="38" viewBox="0 0 40 40" fill="none">
         <circle cx="20" cy="20" r="20" fill={C.orange} />
         <path d="M20 8C20 8 13 15 13 21.5C13 25.6 16.1 29 20 29C23.9 29 27 25.6 27 21.5C27 15 20 8 20 8Z" fill="white" />
@@ -274,7 +274,7 @@ const TRUSTED_PARTNERS = [
   { name: "Salesforce", logo: "https://logo.clearbit.com/salesforce.com" },
   { name: "Acronis", logo: "https://logo.clearbit.com/acronis.com" },
   { name: "VOL", logo: "https://logo.clearbit.com/vol.com" },
-  { name: "Sara Containers", logo: "./public/logo.png" },
+  { name: "Sara Containers", logo: "/logo.png" },
 ];
 
 const partnerLogoFallback = (name: string) =>
