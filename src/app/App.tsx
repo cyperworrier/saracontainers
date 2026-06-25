@@ -267,14 +267,16 @@ const FEATURED_PRODUCTS = [
 ];
 
 const TRUSTED_PARTNERS = [
-  { name: "Crayon", logo: "https://logo.clearbit.com/crayon.com" },
-  { name: "Future", logo: "https://logo.clearbit.com/future.com" },
-  { name: "Kissflow", logo: "https://logo.clearbit.com/kissflow.com" },
-  { name: "MBS", logo: "https://logo.clearbit.com/mbs.com" },
-  { name: "Salesforce", logo: "https://logo.clearbit.com/salesforce.com" },
-  { name: "Acronis", logo: "https://logo.clearbit.com/acronis.com" },
-  { name: "VOL", logo: "https://logo.clearbit.com/vol.com" },
-  { name: "Sara Containers", logo: "/logo.png" },
+  { name: "sks", logo: "/partners/sks.png" },
+  // { name: "ganesh", logo: "/partners/ganesh.png" },
+  { name: "freshnut", logo: "/partners/freshnut.png" },
+  { name: "grb", logo: "/partners/grb.png" },
+  { name: "nippon", logo: "/partners/nippon.png" },
+  { name: "rvc", logo: "/partners/rvc.png" },
+  { name: "rkg", logo: "/partners/rkg.png" },
+  // { name: "Sara Containers", logo: "/logo.png" },
+  { name: "rabbanna", logo: "/partners/rabbanna.png" },
+  {name : "gajjalle", logo: "/partners/gajjalle.png"},
 ];
 
 const partnerLogoFallback = (name: string) =>
