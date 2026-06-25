@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="2.038 2.039 60.566 60.71" viewBox="0 0 69 69" height="69" width="69" xmlns="http://www.w3.org/2000/svg" data-type="ugc">
+    <g>
+        <defs>
+            <clipPath id="26d74bc5-a66f-4df7-802b-08a291c270b9">
+                <path d="M0-12h66v-66H0Z"/>
+            </clipPath>
+        </defs>
+        <g transform="translate(0 78)">
+            <text font-family="Calibri" font-size="11" transform="translate(66 -12)"><tspan y="0" x="0"> </tspan></text>
+            <g clip-path="url(#26d74bc5-a66f-4df7-802b-08a291c270b9)">
+                <path fill-rule="evenodd" fill="#eb3c00" d="M32.321-15.251c16.16 0 30.283-14.17 30.283-30.379 0-16.16-14.124-30.331-30.283-30.331S2.038-61.79 2.038-45.63c0 16.208 14.122 30.379 30.283 30.379Z"/>
+                <path fill-rule="evenodd" fill="#ffffff" d="M30.283-71.934c0 4.078 0 12.132 6.065 16.21 8.105 6.065 16.162 10.094 12.133 20.236-2.038 10.142-4.027 6.066-4.027 6.066 0-20.237-20.237-20.237-18.2-32.368 2.04-6.066 4.029-14.171 4.029-10.144Z"/>
+                <path fill-rule="evenodd" fill="#ffffff" d="M22.227-63.829c0 4.027 1.989 10.142 6.067 16.208 8.055 6.066 16.16 10.094 12.084 20.237-1.991 8.1-4.029 4.028-4.029 4.028C34.31-43.593 16.16-43.593 18.2-55.723c1.989-4.077 4.027-12.133 4.027-8.106Z"/>
+                <path fill-rule="evenodd" fill="#ffffff" d="M22.227-41.554c1.989 2.039 6.067 4.027 10.094 10.094v10.143H22.227Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

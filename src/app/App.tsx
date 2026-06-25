@@ -32,7 +32,7 @@ const C = {
 function SaraLogo({ inverted = false }: { inverted?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2.5 no-underline">
-      <img src="./public/logo.png" alt="Sara Containers Logo" />
+      <img src="/logo.png" alt="Sara Containers Logo" />
       {/* <svg width="38" height="38" viewBox="0 0 40 40" fill="none">
         <circle cx="20" cy="20" r="20" fill={C.orange} />
         <path d="M20 8C20 8 13 15 13 21.5C13 25.6 16.1 29 20 29C23.9 29 27 25.6 27 21.5C27 15 20 8 20 8Z" fill="white" />
@@ -267,14 +267,16 @@ const FEATURED_PRODUCTS = [
 ];
 
 const TRUSTED_PARTNERS = [
-  { name: "Crayon", logo: "https://logo.clearbit.com/crayon.com" },
-  { name: "Future", logo: "https://logo.clearbit.com/future.com" },
-  { name: "Kissflow", logo: "https://logo.clearbit.com/kissflow.com" },
-  { name: "MBS", logo: "https://logo.clearbit.com/mbs.com" },
-  { name: "Salesforce", logo: "https://logo.clearbit.com/salesforce.com" },
-  { name: "Acronis", logo: "https://logo.clearbit.com/acronis.com" },
-  { name: "VOL", logo: "https://logo.clearbit.com/vol.com" },
-  { name: "Sara Containers", logo: "./public/logo.png" },
+  { name: "sks", logo: "/partners/sks.png" },
+  // { name: "ganesh", logo: "/partners/ganesh.png" },
+  { name: "freshnut", logo: "/partners/freshnut.png" },
+  { name: "grb", logo: "/partners/grb.png" },
+  { name: "nippon", logo: "/partners/nippon.png" },
+  { name: "rvc", logo: "/partners/rvc.png" },
+  { name: "rkg", logo: "/partners/rkg.png" },
+  // { name: "Sara Containers", logo: "/logo.png" },
+  { name: "rabbanna", logo: "/partners/rabbanna.png" },
+  {name : "gajjalle", logo: "/partners/gajjalle.png"},
 ];
 
 const partnerLogoFallback = (name: string) =>
